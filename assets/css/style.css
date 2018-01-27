@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #639c8a;
-    min-height: 210px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -36,11 +36,12 @@
 .company-name{
     font-family: "Cinzel Decorative", cursive;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 70px;
     margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: #101065;
+    height: 200px;
 }
 
 .navbar{
@@ -51,8 +52,11 @@
 }
 
 .menuitem {
-    width: 100%;
     text-align: center;
+}
+
+.menuitem a {
+    width: 100%;
     text-decoration: none;
     color: #d6f5eb;
     display: block;
@@ -61,12 +65,35 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 2px;
-    padding: 0;
 }
-
-
 
 .menuitem a:hover{
     background-color: #e88617;
+    color: #101065;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #d6f5eb;
+    min-height: 120px;
+    margin: 0;
+}
+
+.contact-details{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #101065;
+}
+
+.social-links li a i{
+    font-size: 50px;
+    color: #101065;
+    margin: 20px;
+}
+
+.disclaimer{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
     color: #101065;
 }
