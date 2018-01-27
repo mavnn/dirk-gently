@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900|Lato:400,400i,700,700i');
+
+/*Colours
+#d6f5eb light green
+#639c8a dark green
+#e88617 burnt orange
+#3d3dd6 royal blue
+#101065 navy
+*/
+
+.bg-color-company-name{
+    background-color: #d6f5eb;
+}
+
+.bg-color-navbar{
+    background-color: #639c8a;
+}
+
+#nav{
+    background-color: #639c8a;
+}
+
+.logo{
+    background: url("../images/magnifying_glass.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #639c8a;
+    min-height: 210px;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.company-name{
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #101065;
+}
+
+.navbar{
+    float: right;
+    color: #d6f5eb;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuitem {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #d6f5eb;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0;
+}
+
+
+
+.menuitem a:hover{
+    background-color: #e88617;
+    color: #101065;
+}
