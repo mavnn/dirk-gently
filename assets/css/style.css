@@ -1,52 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900|Lato:400,400i,700,700i');
 
 /*Colours
-#d6f5eb light green
-#639c8a dark green
-#e88617 burnt orange
-#3d3dd6 royal blue
-#101065 navy
+#D4E4F7 pale blue
+#236AB9 medium blue
+#FC7307 burnt orange
+#B85B14 golden brown
+#341C09 dark brown
 */
 
+/*---------------------------------------------------Header*/
+
 .bg-color-company-name{
-    background-color: #d6f5eb;
+    background-color: #341C09;
 }
 
-.bg-color-navbar{
-    background-color: #639c8a;
-}
 
 #nav{
-    background-color: #639c8a;
+    background-color: #341C09;
 }
 
 .logo{
-    background: url("../images/magnifying_glass.png");
+    background: url("../images/dirk-logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #639c8a;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    background-color: #FC7307;
+    color: #341C09;
+    min-height: 232px;
 }
 
 .company-name{
     font-family: "Cinzel Decorative", cursive;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 60px;
+    text-align: center;
     margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #101065;
-    height: 200px;
+    color: #FC7307;
 }
 
 .navbar{
     float: right;
-    color: #d6f5eb;
     margin: 0px;
     padding: 0px;
 }
@@ -58,7 +52,7 @@
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #d6f5eb;
+    color: #FC7307;
     display: block;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
@@ -68,14 +62,33 @@
 }
 
 .menuitem a:hover{
-    background-color: #e88617;
-    color: #101065;
+    background-color: #FC7307;
+    color: #341C09;
 }
 
-/*Footer*/
+/*---------------------------------------------------Main*/
+
+.background{
+    background: url("../images/tree-2976739_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 850px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*---------------------------------------------------Footer*/
 
 footer{
-    background-color: #d6f5eb;
+    background-color: #FC7307;
     min-height: 120px;
     margin: 0;
 }
@@ -83,17 +96,17 @@ footer{
 .contact-details{
     font-family: "Lato", sans-serif;
     font-size: 16px;
-    color: #101065;
+    color: #000000;
 }
 
 .social-links li a i{
     font-size: 50px;
-    color: #101065;
+    color: #000000;
     margin: 20px;
 }
 
 .disclaimer{
     font-family: "Lato", sans-serif;
     font-size: 14px;
-    color: #101065;
+    color: #000000;
 }
