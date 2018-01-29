@@ -79,24 +79,18 @@
     position: relative;
 }
 
-.callout{
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    background-color: #D4E4F7;
-    color: #341C09;
-    margin-top: 100px;
-}
-
 .text-box{
     background-color: #D4E4F7;
+    color: #341C09;
     margin-top: 50px;
-    padding: 50px;
+    padding: 20px;
 }
 
 .blurb{
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    color: #341C09;
     margin-bottom: 20px;
 }
 
@@ -104,18 +98,23 @@
     font-family: "Cinzel Decorative", cursive;
     font-weight: 700;
     font-size: 30px;
+    color: #341C09;
+    margin-bottom: 30px;
 }
 
 .title{
     font-family: "Cinzel Decorative", cursive;
     font-weight: 700;
     font-size: 20px;
+    color: #341C09;
+    margin-top: 30px;
 }
 
 .body-text{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
+    color: #341C09;
     margin-bottom: 30px;
 }
 
@@ -123,7 +122,9 @@
     font-family: "Cinzel Decorative";
     font-weight: 400;
     font-size: 20px;
-    margin-top: 20px;
+    color: #341C09;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /*---------------------------------------------------Footer*/
