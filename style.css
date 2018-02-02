@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
     background-color: #FC7307;
     color: #341C09;
+    min-width: 250px;
     min-height: 205px;
 }
 
@@ -27,8 +28,7 @@
     font-family: "Cinzel Decorative", cursive;
     font-weight: 900;
     font-size: 50px;
-    text-align: left;
-    margin-left: 50px;
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     color: #FC7307;
@@ -65,8 +65,7 @@
 /*---------------------------------------------------Main content*/
 
 .text-container {
-    height: 100vh;
-
+    min-height: 80vh;
 /*Code for the background image is from https://css-tricks.com/perfect-full-page-background-image/*/
     background: url("images/bg.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -74,7 +73,7 @@
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     position: relative;
 }
@@ -82,7 +81,6 @@
 .text-box{
     background-color: #D4E4F7;
     color: #341C09;
-    margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -141,6 +139,11 @@ button[type="submit"]{
     color: #D4E4F7;
 }
 
+button[type="submit"]:hover {
+    background-color: #341C09;
+    color: #FC7307;
+}
+
 /*---------------------------------------------------Footer*/
 
 footer{
@@ -171,4 +174,13 @@ footer{
     font-size: 14px;
     color: #341C09;
     margin-top: 10px;
+}
+
+.copyright{
+    font-family: Raleway;
+    font-size: 14px;
+    color: #341C09;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
