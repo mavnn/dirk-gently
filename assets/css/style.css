@@ -11,7 +11,7 @@
 /*---------------------------------------------------Header*/
 
 .logo{
-    background: url("images/dirk-logo.png");
+    background: url("../images/dirk-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-color: #FC7307;
@@ -67,13 +67,14 @@
 .text-container {
     min-height: 80vh;
 /*Code for the background image is from https://css-tricks.com/perfect-full-page-background-image/*/
-    background: url("images/bg.jpg") no-repeat center center fixed; 
+    background: url("../images/bg.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
 }
 
